@@ -1,0 +1,26 @@
+{
+  "name": "first-theme",
+  "displayName": "Test",
+  "description": "My first try at making a theme for VS Code, Hope you like it",
+  "version": "0.0.1",
+  "publisher": "Guizito",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dark pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark pink-color-theme.json"
+      }
+    ]
+  }
+}
